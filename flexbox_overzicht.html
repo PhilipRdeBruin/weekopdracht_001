@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script src="javascript/flexbox_philip.js"></script>
+		<script>head("Overzicht FlexBox", "flexbox_overzicht.css", "flexbox_overzicht.js");</script>
+	</head>
+
+	<body>
+		<script>header("home");</script>
+
+		<section>
+			<div id="personalia">
+				<img src="afbeeldingen/philip.jpg" alt="Mijn pasfoto">
+				<article id="motivatie">
+					Ik ben vooral gemotiveerd om dingen te bouwen en dan de resultaten 'aan het werk' te zien.  Daarbij spreken complexe uitdagingen mij zeer aan.
+					Ik houd ervan om lastige problemen op te lossen en kan mij daar behoorlijk in vastbijten.  Hoe groter de benodigde inspanning, hoe groter de voldoening.
+				</article>
+			</div>
+			
+			<div id="ervaring">
+				<div id="vaardigheden">
+					<h4><u>Vaardigheden</u></h4>
+					<script>skills_table();</script>
+				</div>
+
+				<div id="projecten">
+					<h4><u>Projecten</u></h4>
+					<script>projects_table();</script>
+				</div>
+			</div>
+			
+			<nav>
+				<h4><u>Bekijk project:</u></h4>
+				<script>projects_nav();</script>
+			</nav>
+		</section>
+		
+		<script>footer("30%", "40%", "30%", "25%");</script>
+	</body>
+</html>

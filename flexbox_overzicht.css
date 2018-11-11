@@ -1,0 +1,113 @@
+
+#personalia {
+	-webkit-flex						: 1;
+	-ms-flex							: 1;
+	flex									: 1;
+	padding								: 20px;
+}
+
+#personalia img {
+    display								: block;
+    margin-left						: auto;
+    margin-right						: auto;
+    width								: 100%;
+	max-width							: 165px;
+	max-height						: 220px;
+}
+
+#motivatie {
+	padding								: 20% 2% 20% 2%;
+	text-align							: justify;
+	font-size							: 14px;
+	color									: #036;
+	background						: #f7f2e8
+}
+
+#ervaring {
+    -webkit-flex						: 5;
+    -ms-flex							: 5;
+    flex									: 5;
+    padding								: 20px;
+	color									: #4c2600;
+}
+
+#vaardigheden {
+    display								: block;
+	margin-top						: 5%;
+    margin-left						: auto;
+    margin-right						: auto;
+	padding-left						: 7.5%;
+	width								: 85%;
+}
+
+#projecten {
+    display								: block;
+	margin-top						: 10%;
+    margin-left						: auto;
+    margin-right						: auto;
+	margin-bottom					: 5%;
+	width								: 85%;
+}
+
+.tblhead {
+	color									: white;
+	background						: #4c2600;
+}
+
+.tblrijo {
+	color			 						: #4c2600;
+	background						: #dbcaa4;
+}
+
+.tblrije {
+	color			 						: #4c2600;
+	background						: white;
+}
+
+/* Style the navigation menu */
+nav {
+    -webkit-flex						: 1;
+    -ms-flex							: 1;
+    flex									: 1;
+    padding								: 20px;
+	border-left							: 1px solid #dbcaa4;
+}
+
+nav h4 {
+	color									: #4c2600;
+	margin								: 15%;
+}
+
+nav div {
+    display								: block;
+    margin-left						: auto;
+    margin-right						: auto;
+	margin-top						: 7.5%;
+    width								: 67%;
+	height								: 3.75%;
+	padding-top						: 0.75%;
+	text-align							: center;
+	color									: #b3ffb3;
+	background	 					: -webkit-linear-gradient(#008600, #003900, #008600);
+	background	 					: -moz-linear-gradient(#008600, #003900, #008600);
+	background	 					: -ms-linear-gradient(#008600, #003900, #008600);
+	border-radius						: 10px;
+	cursor								: pointer;
+}
+
+nav div:hover {
+	background	 					: -webkit-linear-gradient(#003900, #008600, #003900);
+	background	 					: -moz-linear-gradient(#003900, #008600, #003900);
+	background	 					: -ms-linear-gradient(#003900, #008600, #003900);
+}
+
+nav a{
+	font-size							: 12px;
+	color									: #b3ffb3;
+	text-decoration					: none;
+}
+/*
+#navknop1 a {
+	color									: #bbb;
+}
+*/

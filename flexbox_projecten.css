@@ -1,0 +1,57 @@
+
+#projectinfo {
+	-webkit-flex						: 1;
+	-ms-flex							: 1;
+	flex									: 1;
+	padding								: 20px;
+}
+
+#projectinfo h4 {
+	text-align							: center;
+	color									: #4c2600;
+}
+
+.projectomschr {
+	margin-top						: 25%;
+	padding								: 5%;
+	text-align							: justify;
+	font-size							: 11px;
+	color									: #036;
+	background						: #f7f2e8	
+}
+
+.projectafbeeldingen {
+    -webkit-flex						: 5;
+    -ms-flex							: 5;
+    flex									: 5;
+    padding								: 20px;
+	color									: #4c2600;
+}
+
+.projectafbeeldingen img {
+	width								: 100%;
+}
+
+nav {
+    -webkit-flex						: 1;
+    -ms-flex							: 1;
+    flex									: 1;
+    padding								: 20px;
+	border-left							: 1px solid #dbcaa4;
+}
+
+#projretour {
+	font-size							: 13px;
+	color									: #b3ffb3;
+	background	 					: -webkit-linear-gradient(#008600, #003900, #008600);
+	background	 					: -moz-linear-gradient(#008600, #003900, #008600);
+	background	 					: -ms-linear-gradient(#008600, #003900, #008600);
+	border-radius						: 12px;
+	cursor								: pointer;
+}
+	
+#projretour:hover {
+	background	 					: -webkit-linear-gradient(#003900, #008600, #003900);
+	background	 					: -moz-linear-gradient(#003900, #008600, #003900);
+	background	 					: -ms-linear-gradient(#003900, #008600, #003900);
+}
